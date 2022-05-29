@@ -86,6 +86,7 @@ const menu = [
 
 const sectionDOM = document.querySelector(".section-center");
 const btnContainerDOM = document.querySelector(".btn-container");
+const filterBtns = document.querySelectorAll(".btn-item");
 
 const categories = menu.reduce(
   (index, item) => {
